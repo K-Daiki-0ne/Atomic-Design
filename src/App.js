@@ -1,10 +1,9 @@
 import React from 'react';
+import { Router } from './router/router';
 
 function App() {
   return (
-    <div className="App">
-      <p>Atomic Design tutorial</p>
-    </div>
+    <Router />
   );
 }
 
