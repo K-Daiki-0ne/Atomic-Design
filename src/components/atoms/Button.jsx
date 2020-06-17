@@ -1,9 +1,10 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 
 export function Button() {
   return (
-    <p>
-      This is a button component
-    </p>
+    <Button variant="contained" color="primary" disableElevation>
+      Atoms Button
+    </Button>
   );
 }
