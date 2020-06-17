@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Atomic Design Tutorial
 
-## Available Scripts
+## 開発環境
+- OS - UBUNTU 18.04LTS
+- テキストエディタ - Visual Studio Code
+- Node - v12.18.0
+- yarn - 1.22.4
+- React - 16.13.1
+- Material-UI/core - 4.10.2
 
-In the project directory, you can run:
+## 制作理由
+Atomic Designを用いた開発の学習<br>
+Atomic Designを用いた開発に関心があり、実践してみたいと思ったのでAtomicDesignを用いて開発をしてみました。
 
-### `yarn start`
+## Atomic Designについて
+アメリカのWebデザイナーのBrad Fronst氏により考えられたデザインシステム。UIを5段階に分割し、組み合わせることで画面のUIを制作することができる。<br>
+[参考サイト](https://www.weblab.co.jp/staff/design/7352.html#:~:text=%E3%82%A2%E3%83%88%E3%83%9F%E3%83%83%E3%82%AF%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%AF&text=%E3%82%A2%E3%83%88%E3%83%9F%E3%83%83%E3%82%AF%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AF%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE,UI%E3%81%8C%E4%BD%9C%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![AtomicDesign](https://atomicdesign.bradfrost.com/images/content/atomic-design-process.png)
+[atomicdesign.bradfrost.com](atomicdesign.bradfrost.com)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 各要素について
+### ・Atoms
+UIの最小単位。<br>
+UIを分解して、これ以上分解できない状態のUI<br>
 
-### `yarn test`
+例) Icon
+### ・Molecules
+Atomsを結合したUI <br>
+2つ以上の複数のAtomsを結合し作成されたUIで機能を持つ。<br>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+例) Form
+### ・Organisms
 
-### `yarn build`
+AtomsとMoleculesが組み合わされて作成されたUI。
+Organismsは単体で機能を持つ。<br>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+例) Header
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### ・Templates
+Atoms Molecules Organismsを組み合し作成されたUI<br>
+Templatesは事前に作成したワイヤーフレームのように骨組みの段階
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ・Pages
+アプリケーションの画面となるUI<br>
+ユーザーが利用する際に目にする画面
 
-### `yarn eject`
+## Atomic Designのメリット
+- メンテナンスが行いやすい
+- コンポーネントの再利用が高まる
+- 機能を持つコンポーネントがよりわかりやすくなる
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 参考サイト
+[ウェブラボ（株）スタッフブログ](https://www.weblab.co.jp/staff/design/7352.html#:~:text=%E3%82%A2%E3%83%88%E3%83%9F%E3%83%83%E3%82%AF%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%AF&text=%E3%82%A2%E3%83%88%E3%83%9F%E3%83%83%E3%82%AF%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AF%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE,UI%E3%81%8C%E4%BD%9C%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82)<br>
+[Atomic Design by Brad Frost](https://atomicdesign.bradfrost.com/chapter-2/#atoms)
