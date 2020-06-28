@@ -1,13 +1,13 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
 
-export function DateText() {
+export function AuthorText() {
   return (
     <Typography
       aligin='center'
       variant='h3'
     >
-      2020-06-28
+      Kouguchi-Daiki
     </Typography>
   )
 }
