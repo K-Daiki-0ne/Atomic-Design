@@ -1,7 +1,10 @@
 import React from 'react';
+import { Typography } from '@material-ui/core';
 
-export function HeaderText(props) {
+export function HeaderText() {
   return (
-    <h1>Atomic-Design-Tutorial</h1>
-  )
-}
+    <Typography>
+      Atomic-Design-Tutorial
+    </Typography>
+  );
+};
