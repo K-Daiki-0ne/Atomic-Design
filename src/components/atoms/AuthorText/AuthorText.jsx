@@ -1,13 +1,13 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
 
-export function HeaderText() {
+export function AuthorText() {
   return (
     <Typography
       aligin='center'
-      variant='h1'
+      variant='h3'
     >
-      Atomic-Design-Tutorial
+      Kouguchi-Daiki
     </Typography>
-  );
-};
+  )
+}

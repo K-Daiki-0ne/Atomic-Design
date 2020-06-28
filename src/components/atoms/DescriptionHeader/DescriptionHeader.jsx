@@ -1,13 +1,14 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
 
-export function HeaderText() {
+// AtomicDesignを説明するためのタイトル
+export function DescriptionHeader() {
   return (
     <Typography
       aligin='center'
       variant='h1'
     >
-      Atomic-Design-Tutorial
+      AtomicDesignについて
     </Typography>
-  );
-};
+  )
+}
