@@ -1,8 +1,8 @@
 import React from 'react';
-import SendIcon from '@material-ui/icons/Send';
+import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
 export function SendIcon(){
   return (
-    <SendIcon />
+    <NavigateNextIcon />
   );
 };
