@@ -1,7 +1,8 @@
 import React from 'react';
+import { AuthorText } from '../components/atoms/index';
 
 export function Home() {
   return (
-    <h1>Home</h1>
+    <AuthorText />
   );
 };
