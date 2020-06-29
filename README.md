@@ -1,6 +1,8 @@
 # Atomic Design Tutorial
 
 ## 開発環境
+
+プロジェクト作成段階
 - OS - UBUNTU 18.04LTS
 - テキストエディタ - Visual Studio Code
 - Node - v12.18.0
@@ -8,6 +10,15 @@
 - React - 16.13.1
 - Material-UI/core - 4.10.2
 
+開発段階
+
+- OS - macOS Catalina(10.15.5)
+- テキストエディタ - Visual Studio Code
+- Node - 12.18.1
+- yarn - 1.22.4
+- npm - 6.14.5
+- React - 16.13.1
+- Material-UI/core - 4.10.2
 ## 制作理由
 Atomic Designを用いた開発の学習<br>
 Atomic Designを用いた開発に関心があり、実践してみたいと思ったのでAtomicDesignを用いて開発をしてみました。
