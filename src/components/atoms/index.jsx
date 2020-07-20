@@ -6,4 +6,3 @@ export * from './FooterText/FooterText';
 export * from './HeaderText/HeaderText';
 export * from './Icons/Delete';
 export * from './Icons/Next';
-export * from './Menu/Menu';

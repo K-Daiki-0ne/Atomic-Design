@@ -1,14 +1,19 @@
 import React from 'react';
 import { Card } from '@material-ui/core';
 import { CardMedia } from '@material-ui/core';
-import WireFrame from '../../../img/WireFrame.png';
+// import CardActionArea from '@material-ui/core/CardActionArea';
 
 export function ImageCard() {
   return (
     <Card>
-      <CardMedia 
-        image={WireFrame}
-      />
+      {/* <CardActionArea> */}
+        <CardMedia 
+          component='img'
+          height='300'
+          image="/images/WireFrame.jpg"
+          title='WireFrame'
+        />
+      {/* </CardActionArea> */}
     </Card>
   )
 }
