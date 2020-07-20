@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
-import { HomeComponent } from '../../components/templates/index'
+import { HomeComponent } from '../components/templates/HomeComponent/HomeComponent';
 
 export function Home() {
   return (
-    <Container>
+    <Container maxWidth='md'>
       <HomeComponent />
     </Container>
   );

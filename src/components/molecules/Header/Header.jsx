@@ -1,14 +1,14 @@
 import React from 'react';
 import { AppBar } from '@material-ui/core';
-import { ToolBar } from '@material-ui/core';
+import { Toolbar } from '@material-ui/core';
 import { HeaderText } from '../../atoms/index';
 
 export function Header() {
   return (
     <AppBar>
-      <ToolBar>
+      <Toolbar>
         <HeaderText />
-      </ToolBar>
+      </Toolbar>
     </AppBar>
   );
 };

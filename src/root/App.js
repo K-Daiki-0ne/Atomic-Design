@@ -1,11 +1,11 @@
 import React from 'react';
-import { PageRouter } from '../router/router';
+import { PageRouter } from '../router/router.js';
 import './App.css';
 
-function App() {
+export function App() {
   return (
-    <PageRouter />
+    <div>
+      <PageRouter />
+    </div>
   );
 }
-
-export default App;
