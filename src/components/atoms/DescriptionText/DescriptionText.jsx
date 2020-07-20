@@ -6,7 +6,7 @@ export function DescriptionText() {
   return (
     <Typography
       aligin='center'
-      variant='p'
+      variant='h6'
     >
       AtomicDesignとはUIを原子レベルまで分解してデザインしていくデザイン手法。<br />
       AtomicDesignを使用することでUIのメンテナンス性が向上し、長期的にサービスを継続していくことが容易になります。

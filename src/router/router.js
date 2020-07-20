@@ -4,7 +4,7 @@ import { Home } from '../pages/Home';
 export function PageRouter() {
   return (
     <Router>
-      <Route path exact component={Home}/>
+      <Route path='/' exact component={Home}/>
     </Router>
   )
 }
