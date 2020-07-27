@@ -1,19 +1,27 @@
 import React from 'react';
-import { Card } from '@material-ui/core';
-import { CardMedia } from '@material-ui/core';
-// import CardActionArea from '@material-ui/core/CardActionArea';
+import { 
+  Card, 
+  CardMedia,
+  Typography
+} from '@material-ui/core';
+import { useStyle } from './style';
 
 export function ImageCard() {
+  const classes = useStyle(); 
   return (
-    <Card>
-      {/* <CardActionArea> */}
-        <CardMedia 
-          component='img'
-          height='300'
-          image="/images/WireFrame.jpg"
-          title='WireFrame'
-        />
-      {/* </CardActionArea> */}
+    <Card className={classes.root}>
+      <Typography
+        className={classes.text}
+        variant='h5'
+      >
+        WireFrame
+      </Typography>
+      <CardMedia 
+        className={classes.image}
+        component='img'
+        image="/images/WireFrame.jpg"
+        title='WireFrame'
+      />
     </Card>
   )
 }
