@@ -7,5 +7,10 @@ export const useStyle = makeStyles({
     fontSize: '25px',
     fontFamily: 'sans-serif',
     fontWeight: '700'
+  },
+  border: {
+    borderBottom: 'solid',
+    borderColor: 'white',
+    borderWidth: '2.5px',
   }
 })
