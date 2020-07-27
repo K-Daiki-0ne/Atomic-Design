@@ -3,11 +3,10 @@ import { Grid } from '@material-ui/core';
 import {
   AuthorCard,
   DateCard,
-  // DirectoryCard,
+  DirectoryCard,
   ImageCard,
   TextCard
 } from '../../molecules/index';
-// import { ImageCard } from '../../molecules/ImageCard/ImageCard';
 
 export function MainComponent() {
   return (
@@ -15,7 +14,7 @@ export function MainComponent() {
       <Grid item xs={6}> 
         <DateCard />
         <ImageCard />
-        {/* <DirectoryCard /> */}
+        <DirectoryCard />
       </Grid>
       <Grid item xs={6}>
         <AuthorCard />
