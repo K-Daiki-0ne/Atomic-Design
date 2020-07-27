@@ -1,12 +1,20 @@
 import React from 'react';
-import { Card } from '@material-ui/core';
-import { CardMedia } from '@material-ui/core';
+import { 
+  CardMedia, 
+  Card,
+  Typography
+} from '@material-ui/core';
 import { useStyle } from './style';
 
 export function DirectoryCard() {
   const classes = useStyle();
   return (
     <Card>
+      <Typography
+        variant='h5'
+      >
+        Directory Structure
+      </Typography>
       <CardMedia 
         className={classes.image}
         component='img'
