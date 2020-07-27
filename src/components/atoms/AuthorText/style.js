@@ -4,7 +4,7 @@ export const useStyle = makeStyles({
   text: {
     color: '#111111',
     textAlign: 'center',
-    fontSize: '40px',
+    fontSize: '25px',
     fontFamily: 'sans-serif',
     fontWeight: '700'
   }

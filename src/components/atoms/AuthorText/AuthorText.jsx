@@ -9,6 +9,7 @@ export function AuthorText() {
       className={classes.text}
       variant='h3'
     >
+      Author <br />
       Kouguchi Daiki
     </Typography>
   )
