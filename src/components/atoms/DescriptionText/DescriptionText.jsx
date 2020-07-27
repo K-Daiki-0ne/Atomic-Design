@@ -1,10 +1,13 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
+import { useStyle } from './style';
 
 // AtomicDesignについての説明を記述するコンポーネント
 export function DescriptionText() {
+  const classes = useStyle();
   return (
     <Typography
+      className={classes.text}
       aligin='center'
       variant='h6'
     >
