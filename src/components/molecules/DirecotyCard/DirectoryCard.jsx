@@ -7,7 +7,9 @@ export function DirectoryCard() {
   return (
     <Card>
       <CardMedia 
-        image={Directory}
+        component='img'
+        image='/images/Directory.jpg'
+        title='AtomicDesignDirectory'
       /> 
     </Card>
   );
