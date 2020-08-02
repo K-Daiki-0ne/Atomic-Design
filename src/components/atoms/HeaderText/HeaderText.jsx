@@ -4,10 +4,9 @@ import { Typography } from '@material-ui/core';
 export function HeaderText() {
   return (
     <Typography
-      aligin='center'
-      variant='h1'
+      variant='h6'
     >
-      Atomic-Design-Tutorial
+      AtomicDesignについての学習
     </Typography>
   );
 };
