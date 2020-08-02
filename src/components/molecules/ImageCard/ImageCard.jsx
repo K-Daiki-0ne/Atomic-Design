@@ -1,8 +1,8 @@
 import React from 'react';
+import { ImageTitle } from '../../atoms/index';
 import { 
   Card, 
   CardMedia,
-  Typography
 } from '@material-ui/core';
 import { useStyle } from './style';
 
@@ -10,12 +10,7 @@ export function ImageCard() {
   const classes = useStyle(); 
   return (
     <Card className={classes.root}>
-      <Typography
-        className={classes.text}
-        variant='h5'
-      >
-        WireFrame
-      </Typography>
+      <ImageTitle />
       <CardMedia 
         className={classes.image}
         component='img'
