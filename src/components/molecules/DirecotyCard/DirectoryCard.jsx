@@ -2,19 +2,15 @@ import React from 'react';
 import { 
   CardMedia, 
   Card,
-  Typography
 } from '@material-ui/core';
+import { DirectoryTitle } from '../../atoms/index';
 import { useStyle } from './style';
 
 export function DirectoryCard() {
   const classes = useStyle();
   return (
     <Card>
-      <Typography
-        variant='h5'
-      >
-        Directory Structure
-      </Typography>
+      <DirectoryTitle />
       <CardMedia 
         className={classes.image}
         component='img'
