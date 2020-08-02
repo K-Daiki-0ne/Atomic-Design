@@ -5,7 +5,8 @@ import {
   DateCard,
   DirectoryCard,
   ImageCard,
-  TextCard
+  TextCard,
+  DescriptionCard
 } from '../../molecules/index';
 
 export function MainComponent() {
@@ -18,6 +19,7 @@ export function MainComponent() {
       </Grid>
       <Grid item xs={6}>
         <AuthorCard />
+        <DescriptionCard />
         <TextCard />
       </Grid>
     </Grid>
