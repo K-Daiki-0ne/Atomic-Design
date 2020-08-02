@@ -10,6 +10,7 @@ export const useStyle = makeStyles({
       'sans-serif'
     ].join(','),
     fontSize: '20px',
-    fontWeight: '550'
+    fontWeight: '550',
+    color: '#444444',
   }
 })

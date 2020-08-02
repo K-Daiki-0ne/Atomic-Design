@@ -9,7 +9,8 @@ export const useStyle = makeStyles({
       'Arial',
       'sans-serif'
     ].join(','),
-    fontSize: '20px',
-    fontWeight: '550'
+    fontSize: '26px',
+    fontWeight: '550',
+    color: '#444444',
   }
 })
