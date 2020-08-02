@@ -9,23 +9,27 @@ import {
   DescriptionCard,
   Header
 } from '../../molecules/index';
+import { useStyle } from './style';
 
 export function MainComponent() {
+  const classes = useStyle();
   return (
     <div>
       <Header />
-      <Grid container spacing={6}>
-        <Grid item xs={6}> 
-          <DateCard />
-          <ImageCard />
-          <DirectoryCard />
+      <div className={classes.root}>
+        <Grid container spacing={6}>
+          <Grid item xs={6}> 
+            <DateCard />
+            <ImageCard />
+            <DirectoryCard />
+          </Grid>
+          <Grid item xs={6}>
+            <AuthorCard />
+            <DescriptionCard />
+            <TextCard />
+          </Grid>
         </Grid>
-        <Grid item xs={6}>
-          <AuthorCard />
-          <DescriptionCard />
-          <TextCard />
-        </Grid>
-      </Grid>
+      </div>
     </div>
   )
 }
