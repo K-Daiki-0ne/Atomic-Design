@@ -5,6 +5,7 @@ export const useStyle = makeStyles({
     width: '180px',
     height: '280px',
     marginRight: 'auto',
-    marginLeft: 'auto'
+    marginLeft: 'auto',
+    marginTop: '1.5%'
   }
 })
