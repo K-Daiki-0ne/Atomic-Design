@@ -4,13 +4,14 @@ export const useStyle = makeStyles({
   text: {
     color: '#111111',
     textAlign: 'center',
-    fontSize: '25px',
+    fontSize: 24,
     fontFamily: 'sans-serif',
-    fontWeight: '700'
+    fontWeight: '700',
+    
   },
   border: {
     borderBottom: 'solid',
     borderColor: 'white',
     borderWidth: '2.5px',
-  }
+  },
 })

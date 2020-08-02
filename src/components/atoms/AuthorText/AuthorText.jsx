@@ -4,6 +4,7 @@ import { useStyle } from './style';
 
 export function AuthorText() {
   const classes = useStyle();
+
   return (
     <Typography
       className={classes.text}
@@ -12,7 +13,7 @@ export function AuthorText() {
       <div className={classes.border}>
         Author <br />
       </div>
-      Kouguchi Daiki
+        Kouguchi Daiki
     </Typography>
   )
 }
