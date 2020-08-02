@@ -8,7 +8,7 @@ export function DescriptionCard() {
   const classes = useStyle();
   return (
     <Card className={classes.root}>
-      <CardContent>
+      <CardContent className={classes.text}>
         <DescriptionHeader />
       </CardContent>
     </Card>
