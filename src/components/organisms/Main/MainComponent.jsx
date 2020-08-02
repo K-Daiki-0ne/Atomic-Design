@@ -6,22 +6,26 @@ import {
   DirectoryCard,
   ImageCard,
   TextCard,
-  DescriptionCard
+  DescriptionCard,
+  Header
 } from '../../molecules/index';
 
 export function MainComponent() {
   return (
-    <Grid container spacing={6}>
-      <Grid item xs={6}> 
-        <DateCard />
-        <ImageCard />
-        <DirectoryCard />
+    <div>
+      <Header />
+      <Grid container spacing={6}>
+        <Grid item xs={6}> 
+          <DateCard />
+          <ImageCard />
+          <DirectoryCard />
+        </Grid>
+        <Grid item xs={6}>
+          <AuthorCard />
+          <DescriptionCard />
+          <TextCard />
+        </Grid>
       </Grid>
-      <Grid item xs={6}>
-        <AuthorCard />
-        <DescriptionCard />
-        <TextCard />
-      </Grid>
-    </Grid>
+    </div>
   )
 }
