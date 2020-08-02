@@ -11,6 +11,6 @@ export const useStyle = makeStyles({
     ].join(','),
     fontSize: '20px',
     fontWeight: '550',
-    color: '#000066',
+    color: '#DCDCDC',
   }
 })
