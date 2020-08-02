@@ -4,7 +4,7 @@ import { HomeComponent } from '../components/templates/HomeComponent/HomeCompone
 
 export function Home() {
   return (
-    <Container maxWidth='ms'>
+    <Container maxWidth='lg'>
       <HomeComponent />
     </Container>
   );
