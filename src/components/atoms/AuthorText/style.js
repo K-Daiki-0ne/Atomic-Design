@@ -6,11 +6,9 @@ export const useStyle = makeStyles({
     textAlign: 'center',
     fontSize: 24,
     fontFamily: 'sans-serif',
-    fontWeight: '700',
-    
+    fontWeight: '700',    
   },
   border: {
     borderBottom: 'solid',
-    borderWidth: '2.5px',
   },
 })
