@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyle = makeStyles({
   root: {
-    backgroundColor: 'white'
+    backgroundColor: '#E5E5E5'
   },
   text: {
     textAlign: 'center',

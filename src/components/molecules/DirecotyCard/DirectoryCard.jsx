@@ -9,7 +9,7 @@ import { useStyle } from './style';
 export function DirectoryCard() {
   const classes = useStyle();
   return (
-    <Card>
+    <Card className={classes.root}>
       <DirectoryTitle />
       <CardMedia 
         className={classes.image}
