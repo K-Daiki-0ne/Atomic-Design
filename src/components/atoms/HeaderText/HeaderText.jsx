@@ -9,7 +9,7 @@ export function HeaderText() {
       variant='h1'
       className={classes.text}
     >
-      AtomicDesignについての学習
+      AtomicDesignについての学習をまとめた記事
     </Typography>
   );
 };
