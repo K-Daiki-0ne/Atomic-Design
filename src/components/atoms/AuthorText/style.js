@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyle = makeStyles({
   text: {
-    color: '#111111',
+    color: '#616161',
     textAlign: 'center',
     fontSize: 24,
     fontFamily: 'sans-serif',
@@ -11,7 +11,6 @@ export const useStyle = makeStyles({
   },
   border: {
     borderBottom: 'solid',
-    borderColor: 'white',
     borderWidth: '2.5px',
   },
 })
