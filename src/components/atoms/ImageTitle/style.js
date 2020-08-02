@@ -4,7 +4,8 @@ export const useStyle = makeStyles({
   text: {
     textAlign: 'center',
     fontSize: '24px',
-    fontWeight: '400',
-    color: '#000066'
+    fontWeight: '600',
+    color: '#444444',
+    marginTop: '2%'
   }
 })
