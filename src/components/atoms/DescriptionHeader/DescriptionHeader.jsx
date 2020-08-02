@@ -5,8 +5,7 @@ import { Typography } from '@material-ui/core';
 export function DescriptionHeader() {
   return (
     <Typography
-      aligin='center'
-      variant='h1'
+      variant='h6'
     >
       AtomicDesignについて
     </Typography>
