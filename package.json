@@ -1,6 +1,7 @@
 {
   "name": "atomic-design",
   "version": "0.2.0",
+  "description": "ReactでAtomicDesignを採用した学習記録",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.2",
@@ -34,5 +35,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/K-Daiki-0ne/Atomic-Design"
+  },
+  "author": "K_Daiki_0ne",
+  "engines": {
+    "npm": ">=12.18.1",
+    "node": ">=1.22.4",
+    "react": ">=16.13.1"
   }
 }
