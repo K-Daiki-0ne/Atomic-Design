@@ -1,8 +1,8 @@
-<h1 align="center">Atomic Design Tutorial</h1>
+<h1 align="center">Atomic-Design-Tutorial</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.2.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D12.18.1-blue.svg" />
-  <img src="https://img.shields.io/badge/node-%3E%3D1.22.4-blue.svg" />
+  <img src="https://img.shields.io/badge/node-%3E%3D12.18.1-blue.svg" />
+  <img src="https://img.shields.io/badge/yarn-%3E%3D1.22.4-blue.svg" />
   <img src="https://img.shields.io/badge/react-%3E%3D16.13.1-blue.svg" />
   <a href="https://github.com/K-Daiki-0ne/Atomic-Design#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
