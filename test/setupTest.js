@@ -1,4 +1,4 @@
-import Enzyme, { shallow } from 'enzyme';
+import Enzyme from 'enzyme';
 import ReactSixteenAdapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ 
