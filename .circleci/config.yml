@@ -1,0 +1,38 @@
+version: 2
+
+executors:
+  default:
+    docker:
+      - image: circleci/node:12
+    working_directory: ~/Atomic-Design
+
+commands:
+  cache:
+    steps:
+      - checkout
+      - restore_cache:
+          key: atomic-design-{{ .Branch }}-{{ checksum "package.json" }}
+      - run: npm install
+      - save_cache:
+          key: atomic-design-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - ~/Atomic-Design/node_modules
+
+
+jobs:
+  test:
+    executors: default
+    steps:
+      - cache
+      - run: yarn test
+  build:
+    executors: default
+    steps:
+      - cache
+      - run: yarn build
+
+workflows:
+  test_and_build:
+    jobs:
+      - test
+      - build
