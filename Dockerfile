@@ -1,8 +1,8 @@
-FROM node:alpha
+FROM node:12.18.1
 
 WORKDIR /usr/src/app
 
-COPY ["paclage.json", "yarn.lock", "./"]
+COPY ["package.json", "yarn.lock", "./"]
 
 RUN yarn install
 
