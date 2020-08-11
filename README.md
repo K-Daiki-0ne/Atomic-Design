@@ -31,6 +31,38 @@
 - npm - 6.14.5
 - React - 16.13.1
 - Material-UI/core - 4.10.2
+
+## command
+
+GitHubからクローンする
+
+https
+```
+ git clone https://github.com/K-Daiki-0ne/Atomic-Design.git
+```
+
+ssh
+
+```
+git clone git@github.com:K-Daiki-0ne/Atomic-Design.git
+```
+
+### Dockerを利用する場合
+
+```
+docker-compose up -d --build
+```
+
+### Dockerを利用しない場合
+
+```
+yarn install
+```
+
+```
+yarn start
+```
+
 ## 制作理由
 Atomic Designを用いた開発の学習<br>
 Atomic Designを用いた開発に関心があり、実践してみたいと思ったのでAtomicDesignを用いて開発をしてみました。
