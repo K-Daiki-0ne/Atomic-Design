@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from '../root/App';
+import { Home } from '../pages/Home';
 
 let container = null;
 beforeEach(() => {
@@ -12,10 +12,9 @@ afterEach(() => {
   container.remove();
   container = null;
 });
-
 describe('Rendering test', () => {
-  test('Rendering test for App', () => {
+  test('Rendering test for Home', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);  
+    ReactDOM.render(<Home />, div);  
   })  
 })

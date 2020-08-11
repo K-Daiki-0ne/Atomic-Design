@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from '../root/App';
+import { Header } from '../components/molecules/Header/Header';
 
 let container = null;
 beforeEach(() => {
@@ -14,8 +14,8 @@ afterEach(() => {
 });
 
 describe('Rendering test', () => {
-  test('Rendering test for App', () => {
+  test('Rendering test for Header', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);  
+    ReactDOM.render(<Header />, div);  
   })  
 })

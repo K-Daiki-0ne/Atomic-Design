@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from '../root/App';
+import { DescriptionText } from '../components/atoms/DescriptionText/DescriptionText';
 
 let container = null;
 beforeEach(() => {
@@ -14,8 +14,8 @@ afterEach(() => {
 });
 
 describe('Rendering test', () => {
-  test('Rendering test for App', () => {
+  test('Rendering test for DescriptionText', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);  
+    ReactDOM.render(<DescriptionText />, div);  
   })  
 })

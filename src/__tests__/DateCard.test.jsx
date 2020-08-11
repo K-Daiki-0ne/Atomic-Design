@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from '../root/App';
+import { DateCard } from '../components/molecules/DateCard/DateCard';
 
 let container = null;
 beforeEach(() => {
@@ -14,8 +14,8 @@ afterEach(() => {
 });
 
 describe('Rendering test', () => {
-  test('Rendering test for App', () => {
+  test('Rendering test for DateCard', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);  
+    ReactDOM.render(<DateCard />, div);  
   })  
 })
